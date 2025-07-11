@@ -9,6 +9,9 @@ describe("Add New Board", () => {
 
       cy.get('[data-cy="new-board-input"]').type(NewBoardTitle);
       cy.get('[data-cy="new-board-create"]').click();
+      
+    //   Verify the board title input contains the correct title
+      cy.get('[data-cy="board-title"]').should('have.value', NewBoardTitle);
     });
   });
 });
