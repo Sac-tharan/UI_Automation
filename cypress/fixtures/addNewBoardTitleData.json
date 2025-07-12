@@ -1,4 +1,5 @@
 {
-    "NewBoardTitle": "DemoBoardTitle"
-
-}
+    "NewBoardTitle": "DemoBoardTitle",
+    "NewListTitle": ["DemoListOne", "DemoListtwo"]
+  }
+  
