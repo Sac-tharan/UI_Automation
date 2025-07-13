@@ -32,7 +32,7 @@ describe("Create Board (normal flow only)", () => {
             });
           })
           .then(() => {
-            // After verification, find the input with value 'DemoListTwo' and click the SVG by XPath
+            // After verification, finding the input with value 'DemoListTwo' and clicking the SVG by XPath
             cy.get('[data-cy="list-name"]').then(($inputs) => {
               // Find the input with value "DemoListTwo"
               const targetInput = [...$inputs].find(
@@ -44,7 +44,7 @@ describe("Create Board (normal flow only)", () => {
 
               cy.wrap(targetInput)
                 .parent() // move to container holding input and button
-                .find('[data-cy="list-options"]') // find the button with the SVG inside
+                .find('[data-cy="list-options"]') // finding the button with the SVG inside
                 .should("be.visible")
                 .click();
               // After menu opens, click "Delete list"

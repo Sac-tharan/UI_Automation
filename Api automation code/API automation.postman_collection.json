@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "5b9594ba-ab5b-47f7-be9e-bf38397eb04b",
+		"name": "API automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42424024"
+	},
+	"item": [
+		{
+			"name": "Create List",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Created list",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "listId",
+			"value": ""
+		}
+	]
+}
